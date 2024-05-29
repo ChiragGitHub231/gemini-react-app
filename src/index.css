@@ -48,6 +48,7 @@ p {
   box-sizing: border-box;
   border-radius: 6px;
   box-shadow: rgba(0, 0, 82, 0.15) 0 2px 4px;
+  overflow: hidden;
 }
 
 .input-container input {
@@ -58,4 +59,33 @@ p {
   outline: none;
   width: 90%;
   font-weight: 200;
+}
+
+.input-container input::placeholder {
+  color: #cacaca;
+  font-weight: 200;
+}
+
+.input-container button {
+  min-width: 10%;
+  border: none;
+  border-left: 1px solid #cacaca;
+  background-color: #fff;
+  color: #777;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.input-container button:active {
+  background-color: #cacaca;
+}
+
+.answer {
+  padding: 13px 14px;
+  border: solid 0.5px #cacaca;
+  background-color: #fff;
+  margin: 5px;
+  font-size: 15px;
+  font-weight: 200;
+  border-radius: 6px;
 }
