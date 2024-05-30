@@ -4,6 +4,10 @@
 
 ![gemini-demo-ss](https://github.com/ChiragGitHub231/gemini-react-app/assets/107389544/50d1ef66-fbbc-4f03-a24d-faab8bb8a481)
 
+## Description
+
+This is a simple chatbot. I built this in React with Gemini API. My focus is on that learn to use Gemini and handle user queries.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
